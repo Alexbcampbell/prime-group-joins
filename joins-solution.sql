@@ -15,9 +15,9 @@
 6. How many customers do we have?
 -- SELECT count(*) from "customers";
 7. How many products do we carry?
---SELECT count(*) FROM "products";
+-- SELECT count(*) FROM "products";
 8. What is the total available on-hand quantity of diet pepsi?
-
+-- SELECT count(product_id = 6) FROM "warehouse_product";
 ## Stretch
 9. How much was the total cost for each order?
 10. How much has each customer spent in total?
